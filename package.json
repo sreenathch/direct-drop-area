@@ -1,0 +1,41 @@
+{
+  "name": "direct-drop-area",
+  "version": "1.0.0",
+  "description": "react based component converting the component to a drop zone for file upload or manipulations supporting direct web image drop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreenathch/direct-drop-area.git"
+  },
+  "keywords": [
+    "drop",
+    "zone",
+    "drop",
+    "area",
+    "drop",
+    "drop",
+    "area",
+    "drop",
+    "element",
+    "drop",
+    "url",
+    "pull",
+    "image",
+    "web",
+    "drop",
+    "web",
+    "image"
+  ],
+  "author": "shreenath chakinala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreenathch/direct-drop-area/issues"
+  },
+  "homepage": "https://github.com/sreenathch/direct-drop-area#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
