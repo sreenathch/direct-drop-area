@@ -1,6 +1,6 @@
 {
   "name": "direct-drop-area",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react based component converting the component to a drop zone for file upload or manipulations supporting direct web image drop",
   "main": "index.js",
   "scripts": {
@@ -36,6 +36,8 @@
   },
   "homepage": "https://github.com/sreenathch/direct-drop-area#readme",
   "dependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
     "react": "^18.2.0"
   }
 }
