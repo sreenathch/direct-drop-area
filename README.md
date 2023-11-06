@@ -18,7 +18,7 @@ $ yarn start
 ![sample](./direct-drop-area.gif)
 
 ### Usage
-```
+```javascript
 const acceptedFilesType = 'image/*' // accepted file types
 <DirectDropArea
     dontRead
