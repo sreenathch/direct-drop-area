@@ -9,14 +9,13 @@ $ cd direct-drop-area
 $ yarn install
 ```
 
+
 ### Scripts
 ```
 Running locally
 $ yarn start
 ```
-
 ![sample](./direct-drop-area.gif)
-
 ### Usage
 ```javascript
 const acceptedFilesType = 'image/*' // accepted file types
@@ -43,3 +42,4 @@ const acceptedFilesType = 'image/*' // accepted file types
         >this is a drop zone </div>)}
 </DirectDropArea>
 ```
+
