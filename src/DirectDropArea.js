@@ -1,7 +1,7 @@
 import React, {useEffect, useState, useRef} from 'react'
 
 const anyUrlToFile = (url, filename, mimeType) =>
-    fetch(url)
+    fetch(url, {mode: 'no-cors'})
         .then((res) => res.arrayBuffer())
         .then((buffer) => new File([buffer], filename, {type: mimeType}))
 

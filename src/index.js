@@ -1,3 +1,3 @@
 import DirectDropArea from './DirectDropArea'
 
-export default DirectDropArea
+export  default DirectDropArea
