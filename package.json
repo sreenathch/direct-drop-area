@@ -1,6 +1,6 @@
 {
   "name": "direct-drop-area",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "react based component converting the component to a drop zone for file upload or manipulations supporting direct web image drop",
   "main": "es/index.js",
   "files": [
@@ -8,7 +8,7 @@
     "es"
   ],
   "scripts": {
-    "build": "node_modules/.bin/webpack --config webpack.prod.js --mode production",
+    "build": "node_modules/.bin/webpack --config webpack.prod.js --mode development",
     "prepublishOnly": "npm run build",
     "start": "node_modules/.bin/webpack-dev-server --mode development --open --hot --config ./demo/webpack.dev.js",
     "start_port_5000": "node_modules/.bin/webpack-dev-server --mode development --open --hot --config ./demo/webpack.dev.js --port 5000",
