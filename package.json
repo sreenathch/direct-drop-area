@@ -1,6 +1,6 @@
 {
   "name": "direct-drop-area",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "react based component converting the component to a drop zone for file upload or manipulations supporting direct web image drop",
   "main": "es/index.js",
   "files": [
