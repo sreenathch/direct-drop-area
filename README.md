@@ -15,6 +15,8 @@ Running locally
 $ yarn start
 ```
 
+![sample](./direct-drop-area.gif)
+
 ### Usage
 ```
 const acceptedFilesType = 'image/*' // accepted file types
@@ -25,17 +27,18 @@ const acceptedFilesType = 'image/*' // accepted file types
         console.log(file)
     }}
     handleClick={false}>
-    {({ over, overDocument }) => (
+    {({over, overDocument}) => (
         <div
             style={{
-                ...(over
-                    ? { opacity: '50%', border: '1px dashed #259925' }
-                    : {}),
                 width: '600px',
                 height: '200px',
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center'
+                justifyContent: 'center',
+                border: "5px solid black",
+                ...(over
+                    ? {opacity: '50%', border: '5px dashed #259925'}
+                    : {}),
             }}
         >this is a drop zone </div>)}
 </DirectDropArea>

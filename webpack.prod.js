@@ -15,7 +15,8 @@ module.exports = [
       umdNamedDefine: false
     },
     resolve: {
-      extensions: ['.js', '.jsx']
+      extensions: ['.js', '.jsx'],
+      modules: ['node_modules']
     },
     externals: [
       /^react$/,
@@ -60,11 +61,7 @@ module.exports = [
     plugins: [
       new webpack.EnvironmentPlugin({
         NODE_ENV: 'production',
-        BABEL_ENV: 'production',
-        YCS: 'ycscommonsus',
-        APP_NAME: process.env.APP_NAME || 'testapp',
-        STACK: process.env.STACK || 'c',
-        IS_CORE_APP: false
+        BABEL_ENV: 'production'
       }),
       new webpack.DefinePlugin({
         'process.env': {
